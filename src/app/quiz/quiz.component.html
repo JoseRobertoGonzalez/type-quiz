@@ -1,0 +1,38 @@
+<div>
+    <div>
+        <label for="numberInput">Question 1: Enter a Number:</label>
+        <input type="text" id="numberInput" [(ngModel)]="quizService.numberInput" placeholder="Enter a number" />
+        <button mat-raised-button color="primary" (click)="quizService.checkNumberAnswer()">Submit</button>
+    </div>
+
+    <div>
+        <label for="stringInput">Question 2: Enter a String:</label>
+        <input type="text" id="stringInput" [(ngModel)]="quizService.stringInput" placeholder="Enter a string" />
+        <button mat-raised-button color="primary" (click)="quizService.checkStringAnswer()">Submit</button>
+    </div>
+
+    <div>
+        <label for="arrayInput">Question 3: Enter an Array of numbers (comma-separated):</label>
+        <input type="text" id="arrayInput" [(ngModel)]="quizService.arrayInput"
+            placeholder="Enter an array of numbers" />
+        <button mat-raised-button color="primary" (click)="quizService.checkArrayAnswer()">Submit</button>
+    </div>
+
+    <div>
+        <label for="booleanInput">Question 4: Enter a Boolean:</label>
+        <input type="text" id="booleanInput" [(ngModel)]="quizService.booleanInput" placeholder="Enter a boolean" />
+        <button mat-raised-button color="primary" (click)="quizService.checkBooleanAnswer()">Submit</button>
+    </div>
+
+    <div>
+        <label for="anyInput">Question 5: Enter Any:</label>
+        <input type="text" id="anyInput" [(ngModel)]="quizService.anyInput" placeholder="Enter anything" />
+        <button mat-raised-button color="primary" (click)="quizService.checkAnyAnswer()">Submit</button>
+    </div>
+
+    <div>
+        <label for="undefinedInput">Question 6: Enter Undefined:</label>
+        <input type="text" id="undefinedInput" [(ngModel)]="quizService.undefinedInput" placeholder="Enter undefined" />
+        <button mat-raised-button color="primary" (click)="quizService.checkUndefinedAnswer()">Submit</button>
+    </div>
+</div>

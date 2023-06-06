@@ -1,27 +1,36 @@
-# TypeQuiz
+# Angular Quiz Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+This is a simple quiz application built with Angular.
 
-## Development server
+## Project Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The application is composed of several components to display a series of questions and their answers in a summary. The purpose of the application is to practice Angular features such as Components, Services, and Routing.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Quiz Component: Presents a series of questions to the user.
+2. Summary Component: Displays the user's answers and whether they are correct or incorrect.
+3. Navigation Bar: Allows navigation between the quiz and the summary.
+4. Quiz Service: Manages state across components and conducts answer evaluation logic.
 
-## Build
+The application uses Angular Material for UI components and styles.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Running the Project
 
-## Running unit tests
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Start the project:
+   ```
+   ng serve
+   ```
+3. Visit `http://localhost:4200/` in your web browser.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contributions
 
-## Running end-to-end tests
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[MIT](https://choosealicense.com/licenses/mit/)
